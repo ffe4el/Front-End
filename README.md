@@ -1,1 +1,3 @@
-# HTML-study
+# HTML
+# CSS
+# JAVA SCRIPT
