@@ -19,7 +19,7 @@
 - 단락 바꿈 (p)(/p)
 
 
-![img.png](HTML study/img/img.png)
+! [img.png](HTML study/img/img.png)
 <hr>
 
 ![img_3.png](HTML study/img/img_3.png)
