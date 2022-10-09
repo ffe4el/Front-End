@@ -19,11 +19,25 @@
 - 단락 바꿈 (p)(/p)
 
 
-![img.png](img.png)
+![img.png](img/img.png)
+<hr>
 
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
+<hr>
 
 ### 네이버 검색 사례로 폼 전송 과정 이해
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 => 약간 이런느낌??
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
+<hr>
+
+### 폼 요소의 종류
+![img_2.png](img/img_2.png)
+<hr>
+
+### 텍스트 입력!
+![img_5.png](img/img_5.png)
+<hr>
+
+### 데이터 목록을 가진 텍스트 입력 창
+![img_6.png](img/img_6.png)
