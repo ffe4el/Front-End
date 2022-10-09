@@ -1,6 +1,5 @@
 # HTML studying
-### Sol A 22-07-12 
-#### with Egoing
+### Sol A 2022
 ---
 
 ### 기본 문법과 태그
@@ -21,3 +20,10 @@
 
 
 ![img.png](img.png)
+
+![img_3.png](img_3.png)
+
+### 네이버 검색 사례로 폼 전송 과정 이해
+![img_4.png](img_4.png)
+=> 약간 이런느낌??
+![img_1.png](img_1.png)
