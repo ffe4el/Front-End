@@ -19,7 +19,7 @@
 - 단락 바꿈 (p)(/p)
 
 
-![img.png](img/img.png)
+![img_1.png](img_1.png)
 <hr>
 
 ![img_3.png](img/img_3.png)
@@ -41,3 +41,26 @@
 
 ### 데이터 목록을 가진 텍스트 입력 창
 ![img_6.png](img/img_6.png)
+
+### 선택형 입력 : 콤보 박스
+![img.png](img/img.png)
+
+### label
+- 캡션 만들기
+![img.png](img.png)
+- 로그인폼 만들기
+![img_2.png](img_2.png)
+- 선택형 요소의 캡션을 라벨로 감싸기
+![img_6.png](img_6.png)
+- 라벨로 라디오버튼에 캡션 만들기
+![img_7.png](img_7.png)
+
+### 시간정보 입력 폼 요소
+![img_8.png](img_8.png)
+
+### 스핀버튼과 슬라이드바로 편리한 숫자 입력
+![img_9.png](img_9.png)
+
+### 입력할 정보의 힌트 보여주기
+![img_10.png](img_10.png)
+
