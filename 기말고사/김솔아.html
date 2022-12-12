@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>웹프기말고사-김솔아</title>
+    <style>
+        h1 {
+            background: darkgray;
+            color: red;
+        }
+        h2 {
+            background: darkgray;
+            color: yellow;
+        }
+        h3 {
+            background: aliceblue;
+        }
+        h3:hover {
+            background: yellowgreen;
+        }
+    </style>
+    <script>
+        function printStar(n) {
+            let m = parseInt(n);
+            if (isNaN(m) || m < 1) {
+                document.write("입력 오류 입니다.<br>");
+                return;
+            }
+
+            for (let i = 1; i <= m; i++) {
+                for (let j = 0; j < i; j++) {
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+<h1>2022년1학기웹프로그래밍기말시험</h1>
+<h2>문제1</h2>
+<hr>
+<script>
+
+    // account.deposit(20000);
+    // account.withdraw(10000);
+    key = prompt('계좌정보를 확인하세요', '암호');
+    let account = {
+        name: key,
+        code: '111',
+        balance: 35000,
+
+        deposit: function (money) {
+            this.balance += money;
+        },
+        inquiry: function () {
+            return this.balance;
+        },
+        withdraw: function (money) {
+            this.balance -= money;
+            return money;
+
+        },
+
+    }
+    while (true) {
+        if (key == '홍길동') {
+            document.write("<h3>account : " + account.name + ", " + account.code + ", " + account.balance + "</h3>");
+            account.deposit(20000);
+            document.write("<h3>20000원 저금 후 잔액은 " + account.inquiry() + "</h3>");
+            account.withdraw(10000);
+            document.write("<h3>10000원 인출 후 잔액은 " + account.inquiry() + "</h3><br>");
+            break;
+        }
+        key = prompt('계좌정보를 확인하세요', '암호');
+    }
+
+    let n = prompt("0보다 큰 정수를 입력하세요(printStar)");
+    printStar(n);
+
+
+</script>
+<h2>문제2</h2>
+<hr>
+<script>
+    let score1 = prompt("0보다 큰 정수를 입력하세요(등급매기기: 첫번째 점수)");
+    let score2 = prompt("0보다 큰 정수를 입력하세요(등급매기기: 두번째 점수)");
+    score1= parseInt(score1);
+    score2= parseInt(score2);
+    let score= score1+score2;
+    let scoreN= score/2;
+    document.write("<h3>당신의 총점은 "+score+' 입니다.</h3>');
+    document.write("<h3>당신의 평균은 "+scoreN+' 입니다.</h3>');
+    let grade;
+    if(scoreN>=90){
+        grade='A';
+    }
+    else if(scoreN>=80){
+        grade='B';
+    }
+    else if(scoreN>=70){
+        grade='C';
+    }
+    else if(scoreN>=60){
+        grade='D';
+    }
+    else{
+        grade='F';
+    }
+
+    document.write('<h3>당신의 등급은 '+grade+" 입니다.</h3>");
+</script>
+</body>
+</html>
